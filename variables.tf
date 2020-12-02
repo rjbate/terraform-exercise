@@ -1,5 +1,9 @@
 variable "region" {}
 
+variable "ami_name" {}
+
+variable "ami_id" {}
+
 variable "vpc-cidr" {}
 
 variable "subnet-cidr-public" {}
@@ -10,3 +14,4 @@ variable "subnet-cidr-public2" {}
 variable "public_key" {
   default = "~/.ssh/id_rsa.pub"
 }
+
